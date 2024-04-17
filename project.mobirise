@@ -1,0 +1,254 @@
+{
+  "settings": {
+    "name": "超時光之門",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "storem4",
+      "title": "StoreM4",
+      "styling": {
+        "primaryColor": "#a38dfd",
+        "secondaryColor": "#FE525B",
+        "successColor": "#b2ccd2",
+        "infoColor": "#1BA1E2",
+        "warningColor": "#82786E",
+        "dangerColor": "#879A9F",
+        "mainFont": "Poppins",
+        "display1Font": "Poppins",
+        "display1Size": 4.5,
+        "display2Font": "Poppins",
+        "display2Size": 3,
+        "display5Font": "Comfortaa",
+        "display5Size": 1.5,
+        "display7Font": "Comfortaa",
+        "display7Size": 1.1,
+        "display4Font": "Poppins",
+        "display4Size": 1,
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.8.17",
+    "siteFonts": [],
+    "imageResize": true,
+    "chatbutton": {},
+    "favicon": "@PROJECT_PATH@/assets/images/noun-door-5851283.svg",
+    "mbrsiteDomain": "stbxudorr2",
+    "usedWebp": false,
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false,
+    "publishEditFolder": true,
+    "publishChangesOnly": false,
+    "uniqCompNum": 6,
+    "versionPublish": "5.8.17"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "超時光之門",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "gallery2",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)",
+              ".carousel": {
+                "height": "800px",
+                "img": {
+                  "width": "100%",
+                  "height": "100%",
+                  "object-fit": "cover"
+                }
+              },
+              ".carousel-item, .carousel-inner": {
+                "height": "100%"
+              }
+            },
+            "& when (@fullScreen)": {
+              "padding-top": "0",
+              "padding-bottom": "0",
+              ".carousel": {
+                "width": "100%"
+              },
+              ".carousel-inner": {
+                "display": "flex",
+                "align-content": "center",
+                "align-items": "center"
+              },
+              ".carousel-item img": {
+                "height": "100vh",
+                "object-fit": "cover"
+              }
+            },
+            "background-color": "@bgColor",
+            ".mbr-overlay": {
+              "z-index": "1"
+            },
+            ".carousel-caption": {
+              "bottom": "20px",
+              "position": "absolute",
+              "top": "40%",
+              "@media (min-width: 768px)": {
+                "left": "15%",
+                "right": "70%",
+                "width": "(@textWidth * 1%)"
+              },
+              "z-index": "10",
+              "padding-top": "20px",
+              "padding-bottom": "20px",
+              "color": "#fff",
+              "text-align": "center"
+            },
+            ".mobi-mbri-arrow-next": {
+              "margin-left": "5px"
+            },
+            ".mobi-mbri-arrow-prev": {
+              "margin-right": "5px"
+            },
+            ".carousel-control:hover": {
+              "background": "#1b1b1b",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            ".item-wrapper": {
+              "width": "100%"
+            },
+            "@media (max-width: 767px)": {
+              ".container .carousel-control": {
+                "margin-bottom": "0"
+              },
+              ".content-slider-wrap": {
+                "width": "100% !important"
+              }
+            },
+            ".container .carousel-indicators": {
+              "margin-bottom": "3px"
+            },
+            ".carousel-indicators": {
+              "@media (max-width: 768px)": {
+                "display": "none"
+              },
+              "position": "absolute",
+              "bottom": "0",
+              "margin-bottom": "1.5rem !important",
+              "li": {
+                "max-width": "10px",
+                "height": "10px",
+                "width": "10px",
+                "max-height": "10px",
+                "margin": "3px 10px",
+                "background-color": "@controlColor",
+                "border": "0px solid @successColor",
+                "border-radius": "50%",
+                "opacity": "1",
+                "transition": "all 0.3s",
+                "&.active, &:hover": {
+                  "background-color": "@controlActiveColor"
+                },
+                "&::after, &::before": {
+                  "content": "none"
+                }
+              },
+              "&.ie-fix": {
+                "left": "50%",
+                "display": "block",
+                "width": "60%",
+                "margin-left": "-30%",
+                "text-align": "center"
+              }
+            },
+            ".carousel-control": {
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "background-color": "rgba(0, 0, 0, 0.5)",
+              "border": "2px solid #fff",
+              "border-radius": "50%",
+              "transition": "all 0.3s",
+              "&.carousel-control-prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.carousel-control-next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "bottom": "1rem"
+              }
+            },
+            ".right-block": {
+              "position": "absolute",
+              "margin": "0 !important",
+              "top": "50%",
+              "right": "0",
+              "left": "auto",
+              "width": "10%",
+              "height": "3%",
+              "transform": "rotate(90deg)",
+              "min-width": "90px"
+            },
+            "H5": {
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
+            },
+            ".mbr-text": {
+              "margin-top": "0 !important",
+              "line-height": "1.4"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "1rem !important"
+            },
+            ".second-img": {
+              "z-index": "1",
+              "cursor": "pointer",
+              "content": "\"\"",
+              "position": "absolute",
+              "width": "100%",
+              "height": "100%",
+              "background-color": "@bgColor",
+              "top": "0%",
+              "opacity": "(@overlayOpacity * 1%)",
+              "transition": ".5s all",
+              "pointer-events": "none"
+            }
+          },
+          "_customHTML": "<section class=\"gallery2\" group=\"Sliders &amp; Galleries\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\" checked=\"\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked=\"\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"3\" step=\"1\" condition=\"autoplay\">\n         <input type=\"color\" title=\"Control Color\" name=\"controlColor\" value=\"#f7f7f7\" selected=\"\">\n         <input type=\"color\" title=\"Control Active Color\" name=\"controlActiveColor\" value=\"#ffe161\" selected=\"\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showCaption\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"range\" name=\"textWidth\" title=\"Text Width\" min=\"15\" max=\"80\" step=\"1\" value=\"15\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" selected=\"\">\n        <input type=\"range\" name=\"overlayOpacity\" title=\"Overlay Opacity\" min=\"0\" max=\"80\" step=\"1\" value=\"0\">\n        overlayOpacity\n         <header>Hide</header>\n          <input type=\"checkbox\" title=\"Arrows\" name=\"arrows\" checked=\"\">\n    </mbr-parameters>\n    <div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\">\n <ol class=\"carousel-indicators right-block\" mbr-if=\"!arrows\">\n            <li data-target=\"#{{sliderId}}\" data-slide-to=\"0\" class=\"active\" data-bs-slide-to=\"0\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"1\" class=\"\" data-bs-slide-to=\"1\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"2\" class=\"\" data-bs-slide-to=\"2\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"3\" class=\"\" data-bs-slide-to=\"3\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"4\" class=\"\" data-bs-slide-to=\"4\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"5\" class=\"\" data-bs-slide-to=\"5\"></li>\n            \n            \n        </ol>\n\n        <div class=\"carousel-inner\">\n            \n                   \n\n            <div class=\"carousel-item slider-image item active\">\n                <div class=\"item-wrapper\">\n                    <div class=\"second-img\"></div>\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/2024-1200x861.jpg\" alt=\"\" data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width&nbsp;</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-4 mt-4\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required. You can preview your site inside the app. Check the icons on the top.</p>\n\n                        <div class=\"mbr-section-btn item-footer mt-2\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a href=\"\" class=\"btn btn-lg item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn More?\n                        </a></div>\n                    </div>\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <div class=\"second-img\"></div>\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/2024-1-1-1200x1575.jpg\" alt=\"\" data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width&nbsp;</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-4 mt-4\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required. You can preview your site inside the app. Check the icons on the top.</p>\n\n                        <div class=\"mbr-section-btn item-footer mt-2\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a href=\"\" class=\"btn btn-lg item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn More?\n                        </a></div>\n                    </div>\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <div class=\"second-img\"></div>\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/2024-1-2-1200x1565.jpg\" alt=\"\" data-slide-to=\"2\" data-bs-slide-to=\"2\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width&nbsp;</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-4 mt-4\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required. You can preview your site inside the app. Check the icons on the top.</p>\n\n                        <div class=\"mbr-section-btn item-footer mt-2\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a href=\"\" class=\"btn btn-lg item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn More?\n                        </a></div>\n                    </div>\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <div class=\"second-img\"></div>\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/2024-1-3-1200x735.jpg\" alt=\"\" data-slide-to=\"3\" data-bs-slide-to=\"3\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width&nbsp;</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-4 mt-4\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required. You can preview your site inside the app. Check the icons on the top.</p>\n\n                        <div class=\"mbr-section-btn item-footer mt-2\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a href=\"\" class=\"btn btn-lg item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn More?\n                        </a></div>\n                    </div>\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <div class=\"second-img\"></div>\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/2024-1-5-1200x859.jpg\" alt=\"\" data-slide-to=\"4\" data-bs-slide-to=\"4\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width&nbsp;</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-4 mt-4\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required. You can preview your site inside the app. Check the icons on the top.</p>\n\n                        <div class=\"mbr-section-btn item-footer mt-2\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a href=\"\" class=\"btn btn-lg item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn More?\n                        </a></div>\n                    </div>\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <div class=\"second-img\"></div>\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/2024-1-4-1200x738.jpg\" alt=\"\" data-slide-to=\"5\" data-bs-slide-to=\"5\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width&nbsp;</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-4 mt-4\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required. You can preview your site inside the app. Check the icons on the top.</p>\n\n                        <div class=\"mbr-section-btn item-footer mt-2\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a href=\"\" class=\"btn btn-lg item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn More?\n                        </a></div>\n                    </div>\n                </div>\n            </div>\n            \n            \n        </div>\n        <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\" mbr-if=\"arrows\">\n            <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only\">Previous</span>\n        </a>\n        <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\" mbr-if=\"arrows\">\n            <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only\">Next</span>\n        </a>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "gallery2-5",
+          "_isUserblock": true,
+          "_cid": "uaesVl9RJf",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
